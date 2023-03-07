@@ -4,9 +4,9 @@
   <a href="https://twitter.com/arkift_r">
     <img src="https://pbs.twimg.com/profile_images/1632833475454590984/Rc9lwNYz_400x400.jpg" height="96">
     <h3 align="center">Jamstack-powered Blog</h3>
-    <p>No database required*</p>
   </a>
 </p>
+<p align="center">No database required*</p>
 <br/>
 
 # Jamstack-powered Blog built with Next & Typescript🚀
@@ -142,7 +142,7 @@ For example: hello-world.mdx
 title: My first Markdown/MDX document
 author: Jean Ramirez
 description: One nice description
-date: 'Jan 2'
+createAt: '03/06/2023' --> Use format date "MM/DD/YYYY"
 readTime: '15 minutes'
 showDesc: false
 ---
@@ -159,7 +159,7 @@ I **love** using [Next.js](https://nextjs.org/)
 title: Markdown/MDX with Next.js
 author: Jean Ramirez
 description: Jean Ramirez
-date: 'Jan 2'
+createAt: '03/06/2023' --> Use format date "MM/DD/YYYY"
 readTime: '15 minutes'
 showDesc: false
 ---
