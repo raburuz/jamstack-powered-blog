@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {}
+
+@layer utilities{
+  .\@animation-fadeInLeft{
+    animation: fadeInLeft 600ms linear;
+  }
+  @keyframes fadeInLeft {
+    0% {
+      overflow: hidden;
+      opacity: 0;
+      transform: translateX(-40px);
+    }
+    100% {
+      overflow: hidden;
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+
+  .\@animation-fadeInRight{
+    animation: fadeInLeft 600ms linear;
+  }
+  @keyframes fadeInRight {
+    0% {
+      overflow: hidden;
+      opacity: 0;
+      transform: translateX(40px);
+    }
+    100% {
+      overflow: hidden;
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+}
